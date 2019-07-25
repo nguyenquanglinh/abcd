@@ -1,15 +1,19 @@
 n=int(input("nhap n "))
 if n < 2:
     print("khong la snt")
+    exit()
 elif n == 2:
     print(" la so nt")
+    exit()
 elif n %2 == 0:
     print("khong la snt")
+    exit()
 elif n>=3:
     for i in range(3, n, 2):
         if(n %i == 0):
             print("k la snt")
-
+            exit()
+print("la so nt")
 # # from turtle import*
 # # shape("turtle")
 # # for i in range (3):
